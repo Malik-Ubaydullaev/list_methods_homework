@@ -7,7 +7,7 @@ def main(fruits):
         list: return answer
     """
     if fruits.count("apple") == 5:
-        return '[]'
+        return []
     if fruits.count("apple") > 0:
         idx = fruits.index("apple")
         fruits.pop(idx)
